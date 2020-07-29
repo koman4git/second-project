@@ -1,0 +1,67 @@
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
+/*первый блок*/
+.page-header {
+    width: 100%;
+    background-image: url(../img/Photo.jpg);
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    background-color: inherit;
+    color: #fff;
+    margin: 0 219px 0 0;
+}
+.logo svg {
+    fill: currentColor;
+}
+
+.logo-txt {
+/*    color: #ffffff;*/
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.header-menu {
+    
+}
+.header-menu-list {
+    
+}
+.header-menu-list-item {
+    display: inline;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 30px 0 0;
+}
+.header-menu-list-item:hover{
+    color: #c7b299;
+}
+.basket {
+    background-color: inherit;
+    
+}
+.basket-svg {
+    fill: currentColor;
+    background-color: #ffffff;
+}
+
+.search {
+}
+input[type="search"] {
+    width: 28px;
+    height: 28px;
+    background-image: url(../img/icon/icon-search.png);
+    background-color: #000000;
+}
