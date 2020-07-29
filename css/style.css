@@ -11,10 +11,12 @@ p{
 .header{
     width: 100%;
     background-image: url(../img/Photo.jpg);
+    padding: 0 40px 40px 40px;
+    background-size: 100%;
 }
 .page-header {
     width: 100%;
-    
+    margin: 0 0 309px 0;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -65,12 +67,17 @@ p{
     width: 32px;
     height: 31px;
     margin: 55px 28px 0 63px;
-    
+    outline: none;
+    background-image: url(../img/icon/icon-cart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+/*
 .basket-svg {
     fill: currentColor;
     background-color: #ffffff;
 }
+*/
 
 .search {
     margin: 55px 0 0 0;
@@ -80,6 +87,9 @@ input[type="search"] {
     height: 28px;
     background-image: url(../img/icon/icon-search.png);
     background-color: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: none;
 }
 .carusel {
     display: flex;
@@ -152,6 +162,24 @@ input[type="search"] {
     color: black;
 }
 .carusel-pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
+
 .carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;    
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 329px 10px 0 0;
+    border: 2px solid transparent;
+}
+.carusel-pagination-item:hover{
+    border: 2px solid #d3c1ad;
+/*    background-color: #ffffff;*/
+    background-color: transparent;
+    transform: scale(1.2);
 }
