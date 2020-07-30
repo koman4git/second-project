@@ -46,6 +46,9 @@ p{
     font-weight: 400;
     text-align: right;
 }
+.logo:hover{
+  color: #998675;
+}
 
 .header-menu {
     margin: 62px 0 0 0;
@@ -107,6 +110,7 @@ input[type="search"] {
 .carusel-btn-lft{
    margin-right: 490px; 
 }
+
 .carusel-btn-rgt{
     margin-left: 488px;
 }
@@ -140,8 +144,6 @@ input[type="search"] {
 .carusel-text-btn {
     display: block;
     width: 170px;
-    /*    height: 53px;*/
-    border: 1px solid white;
     padding: 21px 37px;
     text-decoration: none;
     text-align: center;
@@ -179,7 +181,6 @@ input[type="search"] {
 }
 .carusel-pagination-item:hover{
     border: 2px solid #d3c1ad;
-/*    background-color: #ffffff;*/
     background-color: transparent;
     transform: scale(1.2);
 }
