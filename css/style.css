@@ -32,7 +32,7 @@ p{
     width: 100%;
     background-image: url(../img/Photo.jpg);
     background-repeat: no-repeat;
-    padding: 0 40px 40px 40px;
+    padding: 40px 0px 40px 0px;
     background-size: 100%;
 }
 .page-header {
@@ -233,7 +233,7 @@ input[type="search"]:focus {
 .second-block{
     width: 100%;
     display: flex;
-    padding: 47px;
+    padding: 47px 0 0 0;
     justify-content: center;
 }
 .services{
@@ -285,4 +285,52 @@ input[type="search"]:focus {
     font-weight: 300;
     line-height: 24px;
     margin: 0 0 30px 0;
+}
+/*Третий блок*/
+.third-block{
+    width: 100%;
+    justify-content: center;
+    background: #fbfaf8;
+    padding: 83px 0 0 0;
+}
+.third-block-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #555555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+.third-block-txt {
+    width: 754px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.third-block-content{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.third-block-content-photo:nth-child(1){
+    position: absolute;
+    top: 82px;
+    left: 344px;
+    z-index: 1;
+}
+.third-block-content-photo:nth-child(2){
+    margin: 0 auto;
+    z-index: 2;
+}
+.third-block-content-photo:nth-child(3){
+    position: absolute;
+    top: 82px;
+    right: 319px;
+    z-index: 1;
 }
