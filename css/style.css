@@ -229,3 +229,60 @@ input[type="search"]:focus {
     background-color: transparent;
     transform: scale(1.2);
 }
+/*второй блок*/
+.second-block{
+    width: 100%;
+    display: flex;
+    padding: 47px;
+    justify-content: center;
+}
+.services{
+    width: 266px;
+    justify-content: center;
+    /* padding: 10px 10px 0 10px; */
+    box-sizing: border-box;
+    /* align-items: center; */
+     text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 33px;
+}
+.services:after{
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    content: "";
+    display: block;
+    margin: 0 0 47px 0;
+}
+.services:hover .services-icon{
+    fill: #c7b299;
+}
+.services:hover .servises-kind{
+    color: #c7b299;
+}
+.services:hover:after{
+    background-color: #c7b299;
+}
+.services-icon{
+    display: block;
+    fill: #555555;
+    margin: 0 0 29px 0;
+}
+.servises-kind{
+    display: block;
+    width: 100%;
+    margin: 0 0 19px 0;
+    color: #555555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+}
+.servises-desk{
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 30px 0;
+}
