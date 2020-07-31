@@ -2,6 +2,27 @@ body{
     width: 1920px;
     margin: 0 auto;
 }
+font-face{
+    font-family: montserrat-light;
+    src: url(../fonts/montserrat-light.ttf);
+}
+font-face{
+    font-family: montserrat-regular;
+    src: url(../fonts/montserrat-regular.ttf);
+}
+font-face{
+    font-family: raleway-medium;
+    src: url(../fonts/raleway-medium.ttf);
+}
+font-face{
+    font-family: raleway-bold;
+    src: url(../fonts/raleway-bold.ttf);
+}
+font-face{
+    font-family: raleway-regular;
+    src: url(../fonts/raleway-regular.ttf);
+}
+
 p{
     font-family: Montserrat;
     font-weight: 300;
@@ -11,6 +32,7 @@ p{
 .header{
     width: 100%;
     background-image: url(../img/Photo.jpg);
+    background-repeat: no-repeat;
     padding: 0 40px 40px 40px;
     background-size: 100%;
 }
@@ -70,29 +92,40 @@ p{
     width: 24px;
     height: 31px;
     margin: 55px 28px 0 63px;
-    outline: none;
-    background-image: url(../img/icon/icon-cart.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
 }
-/*
-.basket-svg {
-    fill: currentColor;
-    background-color: #ffffff;
+.basket-svg{
+    fill: #ffffff;
 }
-*/
-
-.search {
+.basket-svg:hover{
+    fill: #998675;
+}
+.basket-svg:active{
+    fill: red;
+}
+.search-btn {
     margin: 55px 0 0 0;
 }
+
 input[type="search"] {
     width: 28px;
     height: 28px;
     background-image: url(../img/icon/icon-search.png);
-    background-color: inherit;
     background-size: contain;
     background-repeat: no-repeat;
     outline: none;
+    background-color: transparent;
+    border: none;
+/*    border: 1px solid white;*/
+}
+input[type="search"]:focus {
+  width: 300px;
+  transition: width 1s ease-out;
+  background-position: right;
+    
 }
 .carusel {
     display: flex;
@@ -109,10 +142,23 @@ input[type="search"] {
 }
 .carusel-btn-lft{
    margin-right: 490px; 
+   fill: #a2a29f;
 }
-
+.carusel-btn-lft:hover{
+    fill: red;
+}
+.carusel-btn-lft:active{
+    fill: green;
+}
 .carusel-btn-rgt{
     margin-left: 488px;
+    fill: #d3c1ad;
+}
+.carusel-btn-rgt:hover{
+    fill: red;
+}
+.carusel-btn-rgt:active{
+    fill: green;
 }
 .carusel-txt {
     text-align: center;
