@@ -1,0 +1,232 @@
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
+font-face{
+    font-family: montserrat-light;
+    src: url(../fonts/montserrat-light.ttf);
+}
+font-face{
+    font-family: montserrat-regular;
+    src: url(../fonts/montserrat-regular.ttf);
+}
+font-face{
+    font-family: raleway-medium;
+    src: url(../fonts/raleway-medium.ttf);
+}
+font-face{
+    font-family: raleway-bold;
+    src: url(../fonts/raleway-bold.ttf);
+}
+font-face{
+    font-family: raleway-regular;
+    src: url(../fonts/raleway-regular.ttf);
+}
+
+p{
+    font-family: Montserrat;
+    font-weight: 300;
+
+}
+/*первый блок*/
+.header{
+    width: 100%;
+    background-image: url(../img/Photo.jpg);
+    background-repeat: no-repeat;
+    padding: 0 40px 40px 40px;
+    background-size: 100%;
+}
+.page-header {
+    width: 100%;
+    margin: 0 0 309px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.page-header-top{
+    width: 100%;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    background-color: inherit;
+    color: #fff;
+    margin: 40px 219px 0 0;
+}
+.logo svg {
+    fill: currentColor;
+}
+
+.logo-txt {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right;
+}
+.logo:hover{
+  color: #998675;
+}
+
+.header-menu {
+    margin: 62px 0 0 0;
+}
+.header-menu-list-item {
+    display: inline;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 30px 0 0;
+    text-decoration: none;
+}
+.header-menu-list-item:hover{
+    color: #c7b299;
+}
+.basket {
+    background-color: inherit;
+    width: 24px;
+    height: 31px;
+    margin: 55px 28px 0 63px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.basket-svg{
+    fill: #ffffff;
+}
+.basket-svg:hover{
+    fill: #998675;
+}
+.basket-svg:active{
+    fill: red;
+}
+.search-btn {
+    margin: 55px 0 0 0;
+}
+
+input[type="search"] {
+    width: 28px;
+    height: 28px;
+    background-image: url(../img/icon/icon-search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: none;
+    background-color: transparent;
+    border: none;
+/*    border: 1px solid white;*/
+}
+input[type="search"]:focus {
+  width: 300px;
+  transition: width 1s ease-out;
+  background-position: right;
+    
+}
+.carusel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.carusel-btn {
+    margin: 490px;
+}
+.carusel-btn-lft{
+   margin-right: 490px; 
+   fill: #a2a29f;
+}
+.carusel-btn-lft:hover{
+    fill: red;
+}
+.carusel-btn-lft:active{
+    fill: green;
+}
+.carusel-btn-rgt{
+    margin-left: 488px;
+    fill: #d3c1ad;
+}
+.carusel-btn-rgt:hover{
+    fill: red;
+}
+.carusel-btn-rgt:active{
+    fill: green;
+}
+.carusel-txt {
+    text-align: center;
+}
+.carusel-txt-subtitle {
+    display: block;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 14px 0;
+}
+.carusel-txt-tittle {
+    display: block;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0 0 19px 0;
+}
+.carusel-txt-text {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    width: 562px;
+    margin: 0 0 52px 0;
+}
+.carusel-text-btn {
+    display: block;
+    width: 170px;
+    padding: 21px 37px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    
+}
+.carusel-text-btn:hover{
+    background-color: gold;
+    color: black;
+}
+.carusel-pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;    
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 329px 10px 0 0;
+    border: 2px solid transparent;
+}
+.carusel-pagination-item:hover{
+    border: 2px solid #d3c1ad;
+    background-color: transparent;
+    transform: scale(1.2);
+}
