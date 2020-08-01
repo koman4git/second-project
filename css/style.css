@@ -44,9 +44,7 @@ p{
 }
 .page-header-top{
     width: 100%;
-    
 }
-
 .logo {
     display: flex;
     justify-content: space-between;
@@ -333,4 +331,62 @@ input[type="search"]:focus {
     top: 82px;
     right: 319px;
     z-index: 1;
+}
+/*aside блок*/
+aside {
+    width: 100%;
+    background: #251d1a;
+    padding: 48px 0 48px 0;
+    justify-content: center;
+    display: flex;
+}
+.aside-title-block {
+    width: 456px;
+    margin: 0 470px 0 0;
+}
+.aside-subtitle {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c7b299;
+}
+.aside-title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+}
+.aside-txt {
+    color: #615855;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0 0 0;
+}
+.aside-btn{
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    border-radius: 3px;
+    background: #998675;
+    box-sizing: border-box;
+    border-bottom: 3px solid #736357;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 19px 0 20px 0;
+}
+.aside-btn:hover{
+    background: gold;
+    color: black;
+}
+.aside-btn:active{
+    background: green;
+    border: 3px solid red;
+    box-sizing: border-box;
+    color: white;
 }
