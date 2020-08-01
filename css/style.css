@@ -437,7 +437,64 @@ aside {
     background-color: #998675;
     color: #ffffff;
 }
+/*4 блок карточки проектов*/
 .latest-projects {
+    text-decoration: none;
+    position: relative;
+}
+.latest-projects-photo{
+    display: block;
+    width: 100%;
 }
 .load-more {
+}
+.latest-projects-wrapper{
+    width: 100%;
+    min-height: 100px;
+    background: #fbfaf8;
+    position: relative;
+}
+.latest-projects-wrapper:before{
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: -20px;
+    left: 19px;
+}
+.latest-projects-title{
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+.latest-projects-subtitle{
+    display: block;
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.latest-projects-lnk,
+.latest-projects-search{
+    width: 26px;
+    height: 26px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+}
+.latest-projects-lnk{
+    background-image: url(../img/icon/link.svg);
+    left: 35%;
+}
+.latest-projects-search{
+    background-image: url(../img/icon/lupa.svg);
+    right: 35%;
 }
