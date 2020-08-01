@@ -32,7 +32,7 @@ p{
     width: 100%;
     background-image: url(../img/Photo.jpg);
     background-repeat: no-repeat;
-    padding: 0 40px 40px 40px;
+    padding: 40px 0px 40px 0px;
     background-size: 100%;
 }
 .page-header {
@@ -44,9 +44,7 @@ p{
 }
 .page-header-top{
     width: 100%;
-    
 }
-
 .logo {
     display: flex;
     justify-content: space-between;
@@ -233,7 +231,7 @@ input[type="search"]:focus {
 .second-block{
     width: 100%;
     display: flex;
-    padding: 47px;
+    padding: 47px 0 0 0;
     justify-content: center;
 }
 .services{
@@ -285,4 +283,110 @@ input[type="search"]:focus {
     font-weight: 300;
     line-height: 24px;
     margin: 0 0 30px 0;
+}
+/*Третий блок*/
+.third-block{
+    width: 100%;
+    justify-content: center;
+    background: #fbfaf8;
+    padding: 83px 0 0 0;
+}
+.third-block-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #555555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+.third-block-txt {
+    width: 754px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.third-block-content{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.third-block-content-photo:nth-child(1){
+    position: absolute;
+    top: 82px;
+    left: 344px;
+    z-index: 1;
+}
+.third-block-content-photo:nth-child(2){
+    margin: 0 auto;
+    z-index: 2;
+}
+.third-block-content-photo:nth-child(3){
+    position: absolute;
+    top: 82px;
+    right: 319px;
+    z-index: 1;
+}
+/*aside блок*/
+aside {
+    width: 100%;
+    background: #251d1a;
+    padding: 48px 0 48px 0;
+    justify-content: center;
+    display: flex;
+}
+.aside-title-block {
+    width: 456px;
+    margin: 0 470px 0 0;
+}
+.aside-subtitle {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c7b299;
+}
+.aside-title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+}
+.aside-txt {
+    color: #615855;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0 0 0;
+}
+.aside-btn{
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    border-radius: 3px;
+    background: #998675;
+    box-sizing: border-box;
+    border-bottom: 3px solid #736357;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 19px 0 20px 0;
+}
+.aside-btn:hover{
+    background: gold;
+    color: black;
+}
+.aside-btn:active{
+    background: green;
+    border: 3px solid red;
+    box-sizing: border-box;
+    color: white;
 }
