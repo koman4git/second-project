@@ -453,6 +453,7 @@ aside {
     min-height: 100px;
     background: #fbfaf8;
     position: relative;
+    padding: 30px 0 0 0;
 }
 .latest-projects-wrapper:before{
     content: "";
@@ -468,6 +469,8 @@ aside {
     font-size: 20px;
     font-weight: 500;
     display: block;
+    margin: 0 0 0 29px;
+    text-align: left;
 }
 .latest-projects-subtitle{
     display: block;
@@ -476,6 +479,8 @@ aside {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
+    margin: 0 0 0 29px;
+    text-align: left;
 }
 .latest-projects-lnk,
 .latest-projects-search{
@@ -493,8 +498,36 @@ aside {
 .latest-projects-lnk{
     background-image: url(../img/icon/link.svg);
     left: 35%;
+    color: #ffffff;
 }
 .latest-projects-search{
     background-image: url(../img/icon/lupa.svg);
     right: 35%;
+}
+.latest-projects:hover .latest-projects-lnk{
+    display: block;
+}
+.latest-projects:hover .latest-projects-search{
+    display: block;
+}
+.latest-projects:hover .latest-projects-photo{
+    filter: brightness(30%);
+}
+.latest-projects:hover .latest-projects-lnk:hover{
+    background-color: #c7b299;
+}
+.latest-projects:hover .latest-projects-search:hover{
+    background-color: #c7b299;
+}
+.latest-projects:hover .latest-projects-wrapper{
+    background-color: #362f2d;
+}
+.latest-projects:hover .latest-projects-wrapper:before{
+    border-bottom: 10px solid #362f2d;
+}
+.latest-projects:hover .latest-projects-title{
+    color: #ffffff;
+}
+.latest-projects:hover .latest-projects-subtitle{
+    color: #c7b299;
 }
