@@ -518,7 +518,7 @@ aside {
     display: block;
 }
 .latest-projects:hover .latest-projects-photo{
-    filter: brightness(30%);
+    filter: brightness(31%);
 }
 .latest-projects:hover .latest-projects-lnk:hover{
     background-color: #c7b299;
