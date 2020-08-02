@@ -2,30 +2,33 @@ body{
     width: 1920px;
     margin: 0 auto;
 }
-font-face{
+@font-face{
     font-family: montserrat-light;
     src: url(../fonts/montserrat-light.ttf);
 }
-font-face{
+@font-face{
     font-family: montserrat-regular;
     src: url(../fonts/montserrat-regular.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-medium;
     src: url(../fonts/raleway-medium.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-bold;
     src: url(../fonts/raleway-bold.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-regular;
     src: url(../fonts/raleway-regular.ttf);
 }
-
-p{
-    font-family: Montserrat;
-    font-weight: 300;
+@font-face{
+    font-family: raleway-extrabold;
+    src: url(../fonts/raleway-extrabold.ttf)
+}
+@font-face{
+    font-family: raleway-semibold;
+    src: url(../fonts/raleway-semibold.ttf)
 }
 /*первый блок*/
 .header{
@@ -58,9 +61,8 @@ p{
 .logo svg {
     fill: currentColor;
 }
-
 .logo-txt {
-    font-family: Raleway;
+    font-family: raleway-regular;
     font-size: 34px;
     font-weight: 400;
     text-align: right;
@@ -68,14 +70,13 @@ p{
 .logo:hover{
   color: #998675;
 }
-
 .header-menu {
     margin: 62px 0 0 0;
 }
 .header-menu-list-item {
     display: inline;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: montserrat-regular;
     font-size: 14px;
     font-weight: 300;
     margin: 0 30px 0 0;
@@ -106,7 +107,6 @@ p{
 .search-btn {
     margin: 55px 0 0 0;
 }
-
 input[type="search"] {
     width: 28px;
     height: 28px;
@@ -122,7 +122,6 @@ input[type="search"]:focus {
   width: 300px;
   transition: width 1s ease-out;
   background-position: right;
-    
 }
 .carusel {
     display: flex;
@@ -163,7 +162,7 @@ input[type="search"]:focus {
 .carusel-txt-subtitle {
     display: block;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway-regular;
     font-size: 36px;
     font-weight: 500;
     margin: 0 0 14px 0;
@@ -171,7 +170,7 @@ input[type="search"]:focus {
 .carusel-txt-tittle {
     display: block;
     color: #ffffff;
-    font-family: "Raleway - Extra Bold";
+    font-family: raleway-extrabold;
     font-size: 52px;
     font-weight: 400;
     margin: 0 0 19px 0;
@@ -187,12 +186,11 @@ input[type="search"]:focus {
 .carusel-text-btn {
     display: block;
     width: 170px;
-    padding: 21px 37px;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
-    font-family: "Raleway - Extra Bold";
+    font-family: raleway-extrabold;
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -200,7 +198,10 @@ input[type="search"]:focus {
     box-shadow: inset 0 -3px 0 #736357;
     border-radius: 3px;
     background-color: #998675;
-    
+}
+.carusel-text-btn-txt{
+    display: block;
+    padding: 21px 0 21px 0;
 }
 .carusel-text-btn:hover{
     background-color: gold;
@@ -272,13 +273,13 @@ input[type="search"]:focus {
     width: 100%;
     margin: 0 0 19px 0;
     color: #555555;
-    font-family: "Raleway - Semi Bold";
+    font-family: raleway-semibold;
     font-size: 22px;
     font-weight: 400;
 }
 .servises-desk{
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat-regular;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -296,7 +297,7 @@ input[type="search"]:focus {
     width: 100%;
     text-align: center;
     color: #555555;
-    font-family: "Raleway - Semi Bold";
+    font-family: raleway-semibold;
     font-size: 30px;
     font-weight: 400;
     margin: 0 0 24px 0;
@@ -306,7 +307,7 @@ input[type="search"]:focus {
     margin: 0 auto;
     text-align: center;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat-regular;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -315,6 +316,7 @@ input[type="search"]:focus {
   display: flex;
   justify-content: center;
   position: relative;
+    margin: 40px 0 0 0;
 }
 .third-block-content-photo:nth-child(1){
     position: absolute;
@@ -341,24 +343,24 @@ aside {
     display: flex;
 }
 .aside-title-block {
-    width: 456px;
+    width: 530px;
     margin: 0 470px 0 0;
 }
 .aside-subtitle {
-    font-family: Raleway;
+    font-family: raleway-regular;
     font-size: 28px;
     font-weight: 400;
     color: #c7b299;
 }
 .aside-title {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway-regular;
     font-size: 28px;
     font-weight: 400;
 }
 .aside-txt {
     color: #615855;
-    font-family: Montserrat;
+    font-family: montserrat-regular;
     font-size: 18px;
     font-weight: 300;
     margin: 8px 0 0 0;
@@ -372,7 +374,7 @@ aside {
     box-sizing: border-box;
     border-bottom: 3px solid #736357;
     color: #ffffff;
-    font-family: "Raleway - Extra Bold";
+    font-family: raleway-extrabold;
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -389,4 +391,168 @@ aside {
     border: 3px solid red;
     box-sizing: border-box;
     color: white;
+}
+/*Четвертый блок*/
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 81px 0 80px 0;
+    align-items: center;
+    text-align: center;
+}
+.pojects-title {
+    display: block;
+    width: 100%;
+    color: #555555;
+    font-family: raleway-semibold;
+    font-size: 30px;
+    font-weight: 400;
+}
+.projects-txt {
+    width: 757px;
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 24px 0 40px 0;
+}
+.projects-buttons {
+    width: 100%;
+    min-height: 32px;
+}
+.projects-btn {
+    text-align: center;
+    padding: 10px 24px 11px 23px;
+    margin: 0 10px 0 0;
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+}
+.projects-btn:hover{
+    background-color: #998675;
+    color: #ffffff;
+}
+/*4 блок карточки проектов*/
+.our-projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 319px 0 310px;
+}
+.latest-projects {
+    text-decoration: none;
+    position: relative;
+    margin: 30px;
+}
+.latest-projects-photo{
+    display: block;
+    width: 100%;
+}
+.latest-projects-wrapper{
+    width: 100%;
+    min-height: 100px;
+    background: #fbfaf8;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+.latest-projects-wrapper:before{
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: -20px;
+    left: 19px;
+}
+.latest-projects-title{
+    color: #c7b299;
+    font-family: raleway-regular;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin: 0 0 14px 29px;
+    text-align: left;
+}
+.latest-projects-subtitle{
+    display: block;
+    color: #d1d1d1;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 0 29px;
+    text-align: left;
+}
+.latest-projects-lnk,
+.latest-projects-search{
+    width: 26px;
+    height: 26px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+}
+.latest-projects-lnk{
+    background-image: url(../img/icon/link.svg);
+    left: 35%;
+    color: #ffffff;
+}
+.latest-projects-search{
+    background-image: url(../img/icon/lupa.svg);
+    right: 35%;
+}
+.latest-projects:hover .latest-projects-lnk{
+    display: block;
+}
+.latest-projects:hover .latest-projects-search{
+    display: block;
+}
+.latest-projects:hover .latest-projects-photo{
+    filter: brightness(30%);
+}
+.latest-projects:hover .latest-projects-lnk:hover{
+    background-color: #c7b299;
+}
+.latest-projects:hover .latest-projects-search:hover{
+    background-color: #c7b299;
+}
+.latest-projects:hover .latest-projects-wrapper{
+    background-color: #362f2d;
+}
+.latest-projects:hover .latest-projects-wrapper:before{
+    border-bottom: 10px solid #362f2d;
+}
+.latest-projects:hover .latest-projects-title{
+    color: #ffffff;
+}
+.latest-projects:hover .latest-projects-subtitle{
+    color: #c7b299;
+}
+.load-more {
+    width: 170px;
+    min-height: 50px;
+    background: #736357;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: raleway-bold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase; 
+    margin: 29px 0 0 0;
+}
+.load-more:hover{
+    background: gold;
+    color: black; 
 }
