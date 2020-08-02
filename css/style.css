@@ -2,31 +2,31 @@ body{
     width: 1920px;
     margin: 0 auto;
 }
-font-face{
+@font-face{
     font-family: montserrat-light;
     src: url(../fonts/montserrat-light.ttf);
 }
-font-face{
+@font-face{
     font-family: montserrat-regular;
     src: url(../fonts/montserrat-regular.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-medium;
     src: url(../fonts/raleway-medium.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-bold;
     src: url(../fonts/raleway-bold.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-regular;
     src: url(../fonts/raleway-regular.ttf);
 }
-font-face{
+@font-face{
     font-family: raleway-extrabold;
     src: url(../fonts/raleway-extrabold.ttf)
 }
-font-face{
+@font-face{
     font-family: raleway-semibold;
     src: url(../fonts/raleway-semibold.ttf)
 }
@@ -415,6 +415,7 @@ aside {
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
+    margin: 24px 0 40px 0;
 }
 .projects-buttons {
     width: 100%;
