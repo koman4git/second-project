@@ -85,6 +85,9 @@ body{
 .header-menu-list-item:hover{
     color: #c7b299;
 }
+.header-menu-list-item:active{
+    color: gold;
+}
 .basket {
     background-color: inherit;
     width: 24px;
@@ -144,7 +147,7 @@ input[type="search"]:focus {
     fill: red;
 }
 .carusel-btn-lft:active{
-    fill: green;
+    fill: gold;
 }
 .carusel-btn-rgt{
     margin-left: 488px;
@@ -154,7 +157,7 @@ input[type="search"]:focus {
     fill: red;
 }
 .carusel-btn-rgt:active{
-    fill: green;
+    fill: gold;
 }
 .carusel-txt {
     text-align: center;
@@ -386,10 +389,8 @@ aside {
     color: black;
 }
 .aside-btn:active{
-    background: green;
-    border: 3px solid red;
-    box-sizing: border-box;
-    color: white;
+    background: white;
+    color: black;
 }
 /*Четвертый блок*/
 .projects {
@@ -550,8 +551,13 @@ aside {
     line-height: 23px;
     text-transform: uppercase; 
     margin: 29px 0 0 0;
+    word-break: break-all;
 }
 .load-more:hover{
     background: gold;
     color: black; 
+}
+.load-more:active{
+    background: black;
+    color: gold; 
 }
