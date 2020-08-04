@@ -611,3 +611,69 @@ aside {
     background: black;
     color: gold; 
 }
+/*блок видео презентации*/
+.video{
+    width: 100%;
+    min-height: 705px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-presentation{
+    width: 100%;
+/*    height: 100v;*/
+    object-fit: cover;
+}
+.video-play{
+    width: 555px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+}
+.video-btn{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    background: transparent;
+    margin: auto;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 50%;
+}
+.video-btn-svg{
+    fill: #ffffff;
+    margin: auto;
+}
+.video-btn:hover .video-btn-svg{
+    fill: #998675;
+}
+.video-btn:active .video-btn-svg{
+    fill: gold;
+}
+.video-title{
+    color: #ffffff;
+    font-family: raleway-regular;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 44px 0 29px 0;
+    display: block;
+}
+.video-txt{
+    color: #ffffff;
+    font-family: montserrat-regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 552px;
+    margin: 0 0 40px 0;
+}
+.video-time{
+    color: #c7b299;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
