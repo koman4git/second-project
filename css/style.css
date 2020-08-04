@@ -30,6 +30,10 @@ body{
     font-family: raleway-semibold;
     src: url(../fonts/raleway-semibold.ttf)
 }
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/roboto.ttf)
+}
 /*первый блок*/
 .header{
     width: 100%;
@@ -785,4 +789,160 @@ aside {
     line-height: 20px;
     text-transform: uppercase;
     margin: 0 0 30px 0;
+}
+/*девятый блок -посты*/
+.ninth-block {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.ninth-block-title {
+    display: block;
+    width: 100%;
+    color: #555555;
+    font-family: raleway-semibold;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 82px 0 30px 0;
+}
+.ninth-block-txt {
+    width: 757px;
+    margin: 0 0 0 0;
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 40px 0;
+}
+.posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ninth-block-post {
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px 0 0;
+}
+.ninth-block-post-photo {
+    position: relative;
+}
+.ninth-block-post-date {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    text-align: center;
+}
+.date-number {
+   display: block;
+    width: 50px;
+    color: #ffffff;
+    font-family: montserrat-regular;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
+    background-color: #363636;
+    padding: 9px 0 9px 0;
+}
+.date-month {
+    display: block;
+    width: 50px;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #252525;
+    padding: 7px 0 6px 0;
+}
+.ninth-block-post-deck {
+    text-align: left;
+    padding: 0 0 0 29px;
+}
+.ninth-block-post-deck-title {
+    color: #555555;
+    font-family: raleway-regular;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0 19px 0;
+    display: block;
+}
+.ninth-block-post-deck-txt {
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 0 0 27px 0;
+}
+.ninth-block-post-deck-btn {
+    color: #c7b299;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+    margin: 0 0 33px 0;
+}
+.ninth-block-post-deck-btn:after{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 8px;
+    background-image: url(../img/icon/arrow.png);
+    top: 6px;
+    left: 85px;
+    box-sizing: border-box;
+    position: absolute;
+    background-size: cover;
+}
+.ninth-block-post-deck-btn:hover{
+    color: gold;
+}
+.ninth-block-post-deck-btn:active{
+    color: red;
+}
+.ninth-block-post-deck-btn:hover::after{
+    background: gold;
+}
+.ninth-block-post-deck-btn:active::after{
+    background: red;
+}
+.ninth-block-btn{
+    margin: 40px 8px 80px 0;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.ninth-block-btn-svg{
+    fill: #d1d1d1;
+}
+.ninth-block-btn:hover .ninth-block-btn-svg{
+    fill: #998675;
+}
+.ninth-block-btn:active .ninth-block-btn-svg{
+    fill: gold;
+}
+.ninth-block-post:hover .ninth-block-post-photo{
+    filter: brightness(40%);
+}
+.ninth-block-post:hover .ninth-block-post-deck{
+    background-color: #362f2d;
+}
+.ninth-block-post:hover .date-number{
+    background-color: #c3b4a2;
+}
+.ninth-block-post:hover .date-month{
+    background-color: #a48d72;
+}
+.ninth-block-post:hover .ninth-block-post-deck-title{
+    color: #c7b299;
+}
+.ninth-block-post:hover .ninth-block-post-deck-txt{
+    color: #ffffff;
 }
