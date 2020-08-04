@@ -946,3 +946,18 @@ aside {
 .ninth-block-post:hover .ninth-block-post-deck-txt{
     color: #ffffff;
 }
+/*десятый блок- логотипы*/
+.logos{
+    width: 100%;
+    min-height: 489px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/background-tenth-block.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.logo-brand{
+    margin-right: 90px;
+}
