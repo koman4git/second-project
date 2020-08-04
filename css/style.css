@@ -677,3 +677,61 @@ aside {
     font-weight: 400;
     line-height: 24px;
 }
+/*седьмая секция*/
+.sixth-section{
+    width: 100%;
+    min-height: 695px;
+    background-image:url(../img/background-sixthsection.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sixth-section-content{
+    min-width: 673px;
+    position: absolute;
+    width: 655px;
+    position: absolute;
+    margin: 195px 0 0 875px;
+}
+.sixth-section-content-title{
+    display: block;
+    color: #555555;
+    font-family: raleway-semibold;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 2px 40px 0;
+}
+.sixth-section-content-txt{
+    margin: 0 0 0 0;
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 45px 0;
+}
+.sixth-section-content-list{
+    margin: 0 0 0 50px;
+    color: #8c8c8c;
+    font-family: montserrat-regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    list-style-type: none;
+}
+.sixth-section-content-items{
+    position: relative;
+}
+.sixth-section-content-items:before{
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/icon/03.png);
+    top: 6px;
+    left: -36px;
+    box-sizing: border-box;
+    position: absolute;
+    background-size: cover;
+}
