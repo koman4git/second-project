@@ -992,9 +992,12 @@ footer{
     line-height: 24px;
     margin: 29px 0 33px 0;
 }
+.first-column-txt:hover{
+    color: #c7b299;
+}
 /*second column*/
 .resents-posts{
-    width: 262px;  
+    width: 270px; 
 }
 .resents-posts_excerpt{
     text-decoration: none;
@@ -1043,8 +1046,74 @@ footer{
     color: #ffffff;
 }
 .resents-posts_excerpt:hover .resents-posts-txt{
-    color: #c7b299;;
+    color: #c7b299;
 }
 .resents-posts_excerpt:hover .resents-posts-txt_03{
     color: #c7b299;;
+}
+/*third column*/
+.our-twitter{
+    width: 270px;
+}
+.waxom-twitter{
+    text-decoration: none;
+    color: #00bff3;
+}
+.waxom-twitter:hover{
+    color: gold;
+}
+.waxom-twitter:active{
+    color: red;
+}
+.our-twitter-txt{
+    margin: 42px 0 12px 0;
+    color: #555555;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px; 
+}
+.our-twitter-time_ago:after{
+    content: "";
+    display: block;    
+    width: 270px;
+    height: 1px;
+    background-color: #595f6f;
+    margin: 23px 0 0 0;    
+}
+.our-twitter-time_ago{
+    color: #363636;
+    font-family: montserrat-regular;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    display: block;
+/*    margin: 0 0 0 0;*/
+}
+.our-twitter-txt_03{
+   margin: 40px 0 11px 0;
+    color: #555555;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px; 
+}
+.waxom-twitter-bit{
+    text-decoration: none;
+    color: #959595;
+}
+.waxom-twitter-bit:hover{
+    color: gold;
+}
+.waxom-twitter-bit:active{
+    color: red;
+}
+.our-twitter-post:hover .our-twitter-txt{
+    color: #c7b299;
+}
+.our-twitter-post:hover .our-twitter-time_ago{
+    color: #ffff;
+}
+.our-twitter-post:hover .our-twitter-txt_03{
+    color: #c7b299;
 }
