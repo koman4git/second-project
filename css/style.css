@@ -494,6 +494,10 @@ aside {
     background-color: #998675;
     color: #ffffff;
 }
+.projects-btn:active{
+    background-color: #ffffff;
+    color: #998675;
+}
 /*4 блок карточки проектов*/
 .our-projects{
     display: flex;
@@ -1053,7 +1057,16 @@ footer{
     color: #c7b299;
 }
 .resents-posts_excerpt:hover .resents-posts-txt_03{
-    color: #c7b299;;
+    color: #c7b299;
+}
+.resents-posts_excerpt:active .resents-posts-date{
+    color: gold;
+}
+.resents-posts_excerpt:active .resents-posts-txt{
+    color: gold;
+}
+.resents-posts_excerpt:active .resents-posts-txt_03{
+    color: gold;
 }
 /*third column*/
 .our-twitter{
