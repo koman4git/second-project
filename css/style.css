@@ -965,6 +965,10 @@ aside {
     background-color:  #998675;
     border-radius: 20%;
 }
+.logo-brand-img:active{
+    background-color:  gold;
+    border-radius: 20%;
+}
 /*footer*/
 footer{
     width: 100%;
@@ -1144,4 +1148,79 @@ footer{
 }
 .our-twitter_marg{
      margin-right: 33px;
+}
+/*footer-contact*/
+.footer-contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0 52px 0;
+    background-color: #111111;
+}
+.footer-contact-lft{
+    text-align: center;
+    width: 401px;
+    margin: 0 449px 0 366px;
+}
+.footer-contact-lft-copy{
+    color: #555555;
+    font-family: montserrat-regular;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.footer-contact-lft_link-waxom{
+    color: #959595;
+    text-decoration: none;
+    font-family: montserrat-regular;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+}
+.footer-contact-lft_link{
+    text-decoration: none;
+    color: #555555;
+    font-family: montserrat-regular;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+}
+.footer-contact-lft_link-waxom:hover{
+   color: #c7b299; 
+} 
+.footer-contact-lft_link-waxom:active{
+   color: gold; 
+}
+.footer-contact-lft_link:hover{
+    color: #c7b299; 
+}
+.footer-contact-lft_link:active{
+    color: gold; 
+}
+.footer-contact-rgt {
+    width: 320px;
+    text-align: center;
+}
+.footer-contact-rgt_txt {
+    color: #555555;
+    font-family: montserrat-regular;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.footer-contact-rgt_link {
+    color: #959595;
+    font-family: montserrat-regular;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+}
+.footer-contact-rgt_link:hover{
+    color: #c7b299;
+}
+.footer-contact-rgt_link:active{
+    color: gold;
 }
