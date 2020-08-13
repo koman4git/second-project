@@ -1254,10 +1254,21 @@ footer{
     .header{
         width: 100%;
         background-size: auto;
+        padding: 20px 0 20px 0;
+        justify-content: space-between;
     }
     .page-header{
         width: 100%;
         margin: 0 0 0 0;
+        justify-content: space-between;
+    }
+    .logo{
+        margin: 0 0 0 20px;
+        width: 40%;
+        display: block;
+    }
+    .header-menu{
+        margin: 8px 0 0 0;
     }
     .carusel, .basket, .search-btn-form, .sixth-section{
         display: none;
@@ -1268,9 +1279,11 @@ footer{
         height: 48px;
         border: 1px solid black;
         background-image: url(../img/icon/3844438-hamburger-menu-more-navigation_110319.png);
-        background-size: 100%;background-repeat: no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
         background-position: 0 0;
         background-color: #fff;
+        box-sizing: border-box;
     }
     .header-menu-list{
         height: 0;
@@ -1281,11 +1294,12 @@ footer{
     }
     .header-menu-list-item{
         text-align: center;
-        background-color: #ccc;
+/*        background-color: #ccc;*/
         margin-top: 2px;
     }
     input[type="checkbox"]:checked ~ .header-menu-list{
         visibility: visible;
+        height: auto;
 }
 /*    second block*/
     .second-block{
@@ -1323,6 +1337,12 @@ footer{
         padding: 0;
         justify-content: center;
     }
+    .projects-buttons{
+        flex-wrap: wrap;
+    }
+    .projects-btn{
+        margin: 0 15px 13px 0;
+    }
     .latest-projects{
         margin: 20px 20px 20px 20px;
     }
@@ -1331,7 +1351,31 @@ footer{
         flex-wrap: wrap;
     }
     .counters-kinds{
-        margin: 0 73px 0 71px;
+        margin: 0 73px 0 69px;
         width: 20%;
+    }
+    .ninth-block-post{
+       margin: 0 0 15px 0; 
+    }
+    .logos{
+        width: 100%;
+        flex-wrap: wrap;
+        background-size: auto;
+    }
+    .logo-brand{
+        width: 45%;
+        margin: 0 5px 0 0;
+    }
+    .footer-contact{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-contact-lft{
+        width: 80%;
+        margin: -14px 0 20px 0;
+    }
+    .footer-contact-rgt{
+        width: 80%;
+        margin: 0 0 -14px 0;
     }
 }
