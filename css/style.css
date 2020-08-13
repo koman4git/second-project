@@ -80,8 +80,14 @@ body{
 .header-menu {
     margin: 62px 0 0 0;
 }
+.header-menu-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
 .header-menu-list-item {
-    display: inline;
+    display: block;
     color: #ffffff;
     font-family: montserrat-regular;
     font-size: 14px;
@@ -94,6 +100,10 @@ body{
 }
 .header-menu-list-item:active{
     color: gold;
+}
+label,
+#header-menu-list {
+  display: none;
 }
 /*кнопка корзины*/
 .basket {
@@ -1236,4 +1246,92 @@ footer{
 }
 .footer-contact-rgt_link:active{
     color: gold;
+}
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+        background-size: auto;
+    }
+    .page-header{
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .carusel, .basket, .search-btn-form, .sixth-section{
+        display: none;
+    }
+    label{
+        display: block;
+        width: 48px;
+        height: 48px;
+        border: 1px solid black;
+        background-image: url(../img/icon/3844438-hamburger-menu-more-navigation_110319.png);
+        background-size: 100%;background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #fff;
+    }
+    .header-menu-list{
+        height: 0;
+        visibility: hidden;
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-menu-list-item{
+        text-align: center;
+        background-color: #ccc;
+        margin-top: 2px;
+    }
+    input[type="checkbox"]:checked ~ .header-menu-list{
+        visibility: visible;
+}
+/*    second block*/
+    .second-block{
+       margin: auto;
+       width: 100%;
+       flex-wrap: wrap;
+        padding: 40px 0px 0 0px;
+        justify-content: center;
+    }
+    .services{
+       margin: 0 15px -30px 24px;
+       width: 100%; 
+    }
+    .third-block{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    .footer-inform{
+        display: none;
+    }
+/*    блок наши проекты*/
+    .projects{
+        width: 100%;
+    }
+    .projects-txt{
+        width: 80%;
+    }
+    .our-projects{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .latest-projects{
+        margin: 20px 20px 20px 20px;
+    }
+    .counters{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .counters-kinds{
+        margin: 0 73px 0 71px;
+        width: 20%;
+    }
 }
