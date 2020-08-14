@@ -1294,7 +1294,6 @@ footer{
     }
     .header-menu-list-item{
         text-align: center;
-/*        background-color: #ccc;*/
         margin-top: 2px;
     }
     input[type="checkbox"]:checked ~ .header-menu-list{
@@ -1328,6 +1327,7 @@ footer{
 /*    блок наши проекты*/
     .projects{
         width: 100%;
+        padding-top: 10px;
     }
     .projects-txt{
         width: 80%;
@@ -1357,6 +1357,10 @@ footer{
     .ninth-block-post{
        margin: 0 0 15px 0; 
     }
+    .ninth-block-title{
+        margin: 40px 0 20px 0; 
+    }
+    
     .logos{
         width: 100%;
         flex-wrap: wrap;
@@ -1371,7 +1375,7 @@ footer{
         justify-content: center;
     }
     .footer-contact-lft{
-        width: 80%;
+        width: 81%;
         margin: -14px 0 20px 0;
     }
     .footer-contact-rgt{
